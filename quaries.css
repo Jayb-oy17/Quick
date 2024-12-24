@@ -1,0 +1,94 @@
+/** @format */
+
+@media (max-width: 1100px) {
+  .padd-10 {
+    padding: 2rem;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .hero-bg img {
+    height: 70vh;
+  }
+  .featureTextBox {
+    width: 100%;
+  }
+}
+
+@media (max-width: 950px) {
+  .about,
+  .features,
+  .pricingBoxes,
+  .contactInfoBox,
+  .serviceInfoBoxes {
+    grid-template-columns: 1fr;
+  }
+  .feature2 {
+    flex-direction: column;
+  }
+  .feature3 {
+    flex-direction: column-reverse;
+  }
+  .feature2Img,
+  .feature2box {
+    width: 100%;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .navList {
+    display: none;
+  }
+  .navBtn {
+    display: flex;
+  }
+  .close {
+    display: none;
+  }
+  .nav .navList {
+    position: relative;
+  }
+  .stick .navList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 1rem;
+    top: 8rem;
+    background-color: rgb(0, 187, 255);
+    padding: 2rem;
+    width: 15rem;
+    height: 30vh;
+    border-radius: 1rem;
+  }
+  .stick .close {
+    display: flex;
+  }
+  .stick .open {
+    display: none;
+  }
+}
+
+@media (max-width:500px){
+  .clients{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .footer,
+  .contactInput,
+  .contactInfoBoxes{
+    grid-template-columns: 1fr;
+  }
+  .accordion{
+    width: 100%;
+  }
+  .hide{
+    display: none;
+  }
+}
