@@ -215,6 +215,7 @@ h2 {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   background-color: var(--bg-2);
+  scroll-margin-top: 10rem;
 }
 .aboutTextBox {
   display: flex;
@@ -288,6 +289,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  scroll-margin-top: 10rem;
 }
 .client {
   width: 7rem;
@@ -298,6 +300,9 @@ h2 {
 }
 
 /* FEATUE SECTION START  */
+.feature{
+  scroll-margin-top: 10rem;
+}
 .features {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -359,6 +364,7 @@ h2 {
 /* SERVICE SECTION START  */
 .service {
   background-color: var(--bg-2);
+  scroll-margin-top: 10rem;
 }
 .serviceInfoBoxes {
   display: grid;
@@ -434,6 +440,9 @@ h2 {
 }
 
 /* PRICING SECTION START  */
+.pricing{
+  scroll-margin-top: 10rem;
+}
 .pricingBoxes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -534,6 +543,9 @@ h2 {
 }
 
 /* FAQ SECTION START  */
+.faq{
+  scroll-margin-top: 10rem;
+}
 .accordion {
   width: 80%;
   border: 1px solid var(--default-color);
@@ -576,6 +588,9 @@ h2 {
 }
 
 /* CONTACT SECTION START  */
+.contact{
+  scroll-margin-top: 10rem;
+}
 .contactInfoBox {
   display: grid;
   grid-template-columns: 1fr 1fr;
